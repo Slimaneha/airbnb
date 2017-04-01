@@ -168,7 +168,24 @@ h1
             width: 47px;    
             height:30px;
         }
+   
+        article 
+        { display: flex;
+        
+
+        } 
+            p 
+        {
+            padding-left: 1em;
+            justify-content: space-between
+        }
+
+       
+    
+    
     }
+
+
     
                         
 
