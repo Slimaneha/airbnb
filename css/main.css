@@ -116,17 +116,57 @@ strong
 h1
 {
     color: gray;
+   
 }
+
+
 
 
 /* ==========================================================================================
                         CSS PC 1024PX
     =========================================================================================*/
-    @media ( min-width:1024px);
+    @media ( min-width:1024px)
     {
+        
+        h1
+        {
+        font-size: 40px;
+        margin-left: 2em;
+        }
         #haut,#pc 
         {
             display:block;
+        }
+        #phone 
+        {
+            display:none;
+        }
+
+        header nav ul 
+        {
+            display: flex;
+            /*justify-content: space-around;*/
+            list-style: none;
+            justify-content: flex-end;
+
+            
+                    
+        }
+        
+        
+        
+        
+         header nav ul li a 
+        {
+            color: black;
+            text-decoration-line: none;
+            padding-right: 2em;
+            
+        }
+        #logo figure
+        {
+            width: 47px;    
+            height:30px;
         }
     }
     
