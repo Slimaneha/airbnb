@@ -9,7 +9,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link rel="icon" type="ico" href="favicon.ico">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -25,8 +25,8 @@
 <header>
 	<body>
 		<figure>
-			<img src="http://placehold.it/95x42" alt="logo Airbnb">  <!-- Logo airbnb -->
-			<nav>
+			<img src="img/logo.png" alt="logo Airbnb">  <!-- Logo airbnb -->
+			<nav id="haut">
 			<ul>
 				<li> <a href="">Devenez hôte</a> <!-- Lient nav bare 1 --></li>
 				<li><a href="">Aide</a> <!-- Lient nav bare 2--></li>
@@ -38,15 +38,17 @@
 
 <!--start nav -->
 		
+        <h1 id="mobile"><strong>Ou souhaitez-vous aller ?</strong> Votre prochain voyage commence sur 
+        Airbnb</h1>
 
-		<h1> Airbnb Réservez des Logements <br> uniques et vivez là-bas comme <br>
+		<h1 id="pc"> Airbnb Réservez des Logements <br> uniques et vivez là-bas comme <br>
 		 des locaux. </h1>
 		
 </header>  <!-- *************************** END HEADER **************************** -->
 
 
 <!-- Début de la barre de Recheche 1024px -->
-<form>
+<form id="pc">
 
 	<label for="ou">ou</label>
 	<input type="text" name="destination" placeholder="Destination, Ville , Adresses">
@@ -65,10 +67,10 @@
 <!-- End of Barre de recherche 1024px -->
 
 <!-- start of sreach barre tablette -->
-<div id="table">
+<div id="phone">
 	<form>
-		<input type="text" name="Recheche" placeholder="Recherche">
-		<input type="Submit" name="Recherche">
+		<input type="text" name="Recheche" placeholder="Recherche"><i class="fa fa-search" aria-hidden="true"></i>
+<label for="Recheche"></label>
 	</form>
 	
 </div>
@@ -223,7 +225,7 @@
 
 
 
-
+        <script src="https://use.fontawesome.com/d39b97fdf8.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
