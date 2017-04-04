@@ -105,8 +105,7 @@ textarea {
    ========================================================================== */
 
 #haut,
-#pc 
-{
+#pc {
     display: none;
 }
 
@@ -121,11 +120,8 @@ strong {
 h1 {
     color: gray;
 }
-
-#pix 
-{
-    width: 
-    height: 
+#pix {
+    width: height:
 }
 
 /* ==========================================================================================
@@ -172,45 +168,36 @@ h1 {
         padding-left: 1em;
         justify-content: space-around;
     }
-
-    form
-    {
-        border: solid lightgray 1px; 
-        height: 70px; 
+    
+    form {
+        border: solid lightgray 1px;
+        height: 70px;
         display: flex;
-
     }
-  
-
-    input,select
-    {
-        
+    
+    input,
+    select {
         border: none;
         border-left: lightgrey 1px solid;
-        align-items:flex-start;
+        align-items: flex-start;
         justify-content: flex-start;
         height: 35px;
         width: 200px;
     }
 }
-
-p,section img
-{
+p,
+section img {
     margin-left: 6em;
 }
-p
- {
-        margin-left: 7em;
- }
-
- article image
- {
-     margin-left: 0;
- }
- h4
-  {
-      text-align: center;
-  }
+p {
+    margin-left: 7em;
+}
+article image {
+    margin-left: 0;
+}
+h4 {
+    text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
